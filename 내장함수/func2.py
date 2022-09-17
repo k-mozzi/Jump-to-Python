@@ -55,18 +55,19 @@ print('\n')
 def two_times(numberList):
     result = []
     for number in numberList:
-        result.append(number*2)
+        result.append(number * 2)
     return result
 
 
 result = two_times([1, 2, 3, 4])
 print(result)
 
+
 # 결괏값의 2배를 출력하는 코드를 map을 사용하며 간단하게 만들면
 
 
 def twotimes(x):
-    return x*2
+    return x * 2
 
 
 print(list(map(twotimes, [1, 2, 3, 4])))

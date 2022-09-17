@@ -85,12 +85,12 @@ print(result)
 def say_nick(nick):
     if nick == '바보':
         return  # print문에 진입하기 전에 함수를 빠져나감
-    return (f'나의 별명은 {nick}입니다.')
+    print(f'나의 별명은 {nick}입니다.')
 # 문자열 출력과 결괏값(반환값)은 다른 개념이다.
 
 
-print(say_nick("'갱'"))
-print(say_nick("'바보'"))
+print(say_nick("갱"))
+print(say_nick("바보"))
 print('\n')
 
 

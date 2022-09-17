@@ -32,6 +32,7 @@ print('\n')
 # sort 함수는 list에만 적용되는 함수이다.
 
 
+
 print(str(3))
 print(str('hi'))
 print(str('hi'.upper()))

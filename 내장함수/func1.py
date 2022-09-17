@@ -1,6 +1,4 @@
 # iterable은 반복 가능(iterable)한 자료형 여러 개를 입력할 수 있다는 의미이다.
-
-
 print(abs(3))
 print(abs(-4))
 print(abs(3.4))
@@ -73,6 +71,7 @@ def positive(l):
 
 
 print(positive([1, -3, 2, 0, -5, 6]))
+
 
 # 양수만을 출력하는 코드를 filter를 이용하여 더욱 간단하게 만들면
 
